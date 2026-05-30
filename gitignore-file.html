@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>.gitignore File</title>
+  <style>
+    body{font-family:Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 20px;line-height:1.6;color:#222}
+    h1{margin-bottom:8px}
+    p{color:#555}
+    pre{background:#f6f8fa;padding:20px;border-radius:8px;overflow:auto;border:1px solid #ddd;white-space:pre-wrap}
+  </style>
+</head>
+<body>
+  <h1>.gitignore</h1>
+  <p>This file tells Git which local files and folders to ignore.</p>
+  <pre># macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Node dependencies (only if you ever use build tools locally)
+node_modules/
+
+# Build / temp files
+dist/
+build/
+.tmp/
+temp/
+
+# OS / misc
+*.swp
+*.swo
+*~
+
+# Optional local design/source files
+*.psd
+*.ai</pre>
+</body>
+</html>
